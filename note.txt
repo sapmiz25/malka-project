@@ -1,0 +1,6 @@
+להריץ XAMPP
+
+CMD
+mysql -u root -p < init_db.sql
+
+node server.js

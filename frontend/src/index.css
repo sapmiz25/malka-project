@@ -1,0 +1,28 @@
+/* src/index.css */
+
+:root {
+  /* הגדרת פלטת הצבעים המקצועית */
+  --primary-color: #334155;    /* כחול פלדה כהה */
+  --accent-color: #0ea5e9;     /* תכלת בהיר לדגשים */
+  --bg-color: #f8fafc;         /* רקע לבן-קרח נקי */
+  --text-dark: #1e293b;        /* טקסט כמעט שחור */
+  --text-light: #64748b;       /* טקסט אפור להסברים */
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  background-color: var(--bg-color); /* שימוש במשתנה */
+  direction: rtl;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-dark);
+}
