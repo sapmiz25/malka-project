@@ -1,0 +1,70 @@
+/* פלטת צבעים: כחול עמוק וכתום מקצועי */
+:root {
+  --malka-blue: #1d3557;    /* כחול מפקדים עמוק */
+  --malka-orange: #f4a261;  /* הכתום של כפתורי "לביצוע" מהסקיצות */
+  --malka-bg: #f4f7f6;      /* רקע בהיר ונעים לעין */
+  --malka-text: #2d3436;
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--malka-bg);
+}
+
+.login-card {
+  background: white;
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  border-top: 5px solid var(--malka-blue);
+}
+
+.login-card h1 {
+  color: var(--malka-blue);
+  margin-bottom: 30px;
+  font-size: 26px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--malka-blue);
+  font-weight: 600;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #dcdde1;
+  border-radius: 8px;
+  background: #fdfdfd;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 14px;
+  background-color: var(--malka-blue);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #457b9d; /* כחול פלדה במעבר עכבר */
+}
