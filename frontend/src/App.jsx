@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Login from './Login'; // עוד רגע ניצור את הקובץ הזה
-import CommanderDashboard from './CommanderDashboard'; // וגם את זה
+import Login from './Login'; 
+import CommanderDashboard from './CommanderDashboard'; 
 import './App.css';
 
 function App() {
